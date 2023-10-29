@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins:ital,wght@1,500&family=Rubik:wght@300&display=swap');
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.conteiner-1{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#header{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+ 
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#menu ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.conteiner-2 a{
+    background-color: rgb(11, 120, 156);
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    width: 100px;
+
+    
+   
+   
+}
+
+img{
+    border-radius: 20px;
+    height: 300px;
+    margin-left: 150px;
+    
+}
+
+.conteiner-2{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#conteiner-3{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+.red{
+    color: red;
+}
+.services{
+   margin-left: -20%;
+   text-align: center;
+}
+
+
+#conteiner-5{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: -15%;
+    
+}
+
+.trabalho{
+    margin-top: 45px;
+}
+#conteiner-6 #foto{
+    width: 100%;
+}
+#conteiner-6{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-around;
+    margin-top: 5%;
+    
+}
+#foto{
+    margin-left: -16%;
+    height: 50vh;
+}
+.informacao .p {
+    color: black;
+    margin-left: 2%;
+}
+.informacao p{
+    
+    margin-top: 9%;
+    color: red;
+    text-align: center;
+    justify-content: right;
+}
+
+form input{
+    margin-top: 10%;
+   border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+form button{
+    margin-top: 10%;
+    width: 180px;
+    height: 40px;
+    background-color: rgb(11, 120, 156);
+    outline: none;
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+}
